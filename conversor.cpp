@@ -2,7 +2,7 @@
 
 int main(){
 int op;
-float x;
+float x,y;
 
     printf("converter\n\n\n\n\n\n\n\n\t\t\t\t");
     printf("(1) Unidades metricas");

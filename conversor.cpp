@@ -4,7 +4,7 @@ int main(){
 int op;
 float x;
 
-    printf("converter");
+    printf("converter\n");
     printf("(1) Unidades metricas");
     printf("(2) Unidades volumetricas");
     scanf("%d",&op);

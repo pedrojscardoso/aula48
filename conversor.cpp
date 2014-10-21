@@ -6,7 +6,7 @@ float x;
 
     printf("converter");
     printf("(1) Unidades metricas");
-    printf("(2) Unidades volumetricas");
+    printf("(2) Unidades volumetricas\n");
     scanf("%d",&op);
 
     switch(op){
@@ -17,16 +17,16 @@ float x;
             if(op == 1){
                     printf("m=?");
                     scanf("%f",&x);
-                    printf("km=%f", x / 1000.); 
+                    printf("km=%f", x / 1000.);
             }else{
                     printf("km=?");
                     scanf("%f",&x);
-                    printf("m=%f", x * 1000);   
+                    printf("m=%f", x * 1000);
             }
         break;
         case 2:
             printf("Por implementar");
-            default: 
-            printf("Opcao incorreta");      
-    }  
+            default:
+            printf("Opcao incorreta");
+    }
         }

@@ -4,7 +4,7 @@ int main(){
 int op;
 float x;
 
-    printf("converter");
+    printf("converter\n");
     printf("(1) Unidades metricas");
     printf("(2) Unidades volumetricas\n");
     scanf("%d",&op);
@@ -26,7 +26,13 @@ float x;
         break;
         case 2:
             printf("Por implementar");
+<<<<<<< HEAD
             default:
             printf("Opcao incorreta");
     }
+=======
+            default: 
+            printf("Opcao incorreta");      
+    }  
+>>>>>>> 006dba85d6fed8b7a9aab3252fca2b6cf2100e53
         }

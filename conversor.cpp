@@ -26,7 +26,7 @@ float x;
         break;
         case 2:
             printf("Por implementar");
-            default: 
-            printf("Opcao incorreta");      
-    }  
-        }
+            default:
+            printf("Opcao incorreta");
+    }
+}
